@@ -1,0 +1,1 @@
+<?phpsession_start();if(isset($_SESSION['IS_LOGIN'])){	header('location:select_vote.html');}else{	header('location:index2.php');	die();}?><a href="logout1.php">Logout</a>
